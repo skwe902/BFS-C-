@@ -46,7 +46,7 @@ vector<Point> BFS(int mat[Y_POS][X_POS], Point src, Point dest)
     std::vector<Node> parent_child; //this stores the parent-child info
 
     // Mark the source cell as visited
-    visited[src.x][src.y] = true;
+    visited[src.x][src.y] = true; //need fixing - should be visited[y][x]
 
     // Create a queue for BFS
     queue<Point> q;
