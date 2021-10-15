@@ -110,7 +110,7 @@ vector<Point> BFS(int mat[Y_POS][X_POS], Point src, Point dest)
 int main() //just to test the function
 {
     int map[Y_POS][X_POS] =
-    { //given a map of matrices - idk how to convert the txt file into a matrix
+    { //given a map of matrices
         { 0, 1, 1, 1, 1, 1, 1, 0, 0, 0 },
         { 0, 0, 0, 0, 1, 1, 1, 0, 1, 1 },
         { 1, 1, 1, 0, 1, 1, 0, 1, 0, 1 },
